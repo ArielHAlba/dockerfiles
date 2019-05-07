@@ -11,6 +11,8 @@ RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.s
     github.com/hypnoglow/durcheck \
     github.com/nishanths/predeclared \
     github.com/elliotchance/ghost \
+    github.com/timakin/bodyclose \
+    github.com/mgechev/revive \
     github.com/Quasilyte/go-consistent
 
 FROM golang:1.12.4
