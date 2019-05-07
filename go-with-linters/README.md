@@ -15,3 +15,5 @@
 * [ghost](https://github.com/elliotchance/ghost): report complex lines.
 * [go-consistent](https://github.com/Quasilyte/go-consistent): report inconsistent code.
 * [gofumpt](https://github.com/mvdan/gofumpt): enforce a stricter format than gofmt, while being backwards compatible.
+* [bodyclose](https://github.com/timakin/bodyclose): checks whether res.Body is correctly closed.
+* [revive](https://github.com/mgechev/revive): fast, configurable, extensible, flexible, and beautiful linter for Go. Drop-in replacement of golint.
