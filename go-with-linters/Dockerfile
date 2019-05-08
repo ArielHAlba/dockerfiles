@@ -1,4 +1,4 @@
-FROM golang:1.12.4 as builder
+FROM golang:1.12.5 as builder
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.sh | sh -s v1.16.0 -b "$(go env GOPATH)/bin" && \
@@ -15,7 +15,7 @@ RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.s
     github.com/mgechev/revive \
     github.com/Quasilyte/go-consistent
 
-FROM golang:1.12.4
+FROM golang:1.12.5
 COPY --from=builder /go/bin/* /usr/bin/
 
 WORKDIR /go
