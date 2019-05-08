@@ -8,7 +8,6 @@
 * [shfmt](https://github.com/mvdan/sh): prettier for shell scripts.
 * [unindent](https://github.com/mvdan/unindent): report unnecessarily intended code.
 * [splint](https://github.com/agflow/splint): report long and complex code.
-* [impi](https://github.com/pavius/impi): ensure grouping in imports.
 * [badtime](https://github.com/m3db/build-tools/tree/master/linters/badtime): ensure time isn't used in map keys.
 * [durcheck](https://github.com/hypnoglow/durcheck): ensure intention of duration.
 * [predeclared](https://github.com/nishanths/predeclared): report code shadows built-ins.

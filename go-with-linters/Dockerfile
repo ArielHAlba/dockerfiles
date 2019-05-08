@@ -6,7 +6,6 @@ RUN curl -sfL https://install.goreleaser.com/github.com/golangci/golangci-lint.s
     mvdan.cc/gofumpt \
     mvdan.cc/unindent \
     github.com/agflow/splint \
-    github.com/pavius/impi/cmd/impi \
     github.com/m3db/build-tools/linters/badtime \
     github.com/hypnoglow/durcheck \
     github.com/nishanths/predeclared \
